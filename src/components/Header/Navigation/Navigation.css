@@ -1,0 +1,15 @@
+.nav {
+    flex : 2 1 auto;
+}
+
+.ul {
+    list-style: none;
+    display: flex;
+    padding : 0;
+}
+
+ @media (max-width: 905px) {
+    .nav {
+        padding : 5px 0;
+    }
+}

@@ -1,0 +1,13 @@
+.ButtonNormal {
+    color : white;
+    background-color: #B07957;
+    padding: 10px 20px ;
+    border-radius: 25px;
+    border : none;
+    font-weight: bold;
+}
+
+.ButtonNormal:hover {
+    background-color: rgb(219, 181, 157);
+    cursor: pointer;
+}
