@@ -10,8 +10,24 @@
     display :flex;
     align-items: center;
     justify-content: space-around;
-
+    z-index: 100;
 }
+
+.HeaderContainer {
+    margin: 50px 0 50px 0;
+    width: 100%;
+    display :flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+
+ @media (max-width: 1251px) {
+     .Header {
+         width: 900;
+     }
+ }
 
  @media (max-width: 936px) {
     .Header {

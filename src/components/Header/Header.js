@@ -9,11 +9,13 @@ import mypic from '../../assets/image/mypic.png'
 
 const Header = () => (
     <div className = {s.Header} >
+        <div className = {s.HeaderContainer}>
             <Navigation />
             <Logo />
             <SearchBox />
             <Avatar src = {mypic} size = {[34,34]} flex = {`1 1 auto`} />
             <Button btnclass='ButtonNormal' label='Tweet' flex={`1 1 auto`} />
+        </div>
     </div>
 )
 
