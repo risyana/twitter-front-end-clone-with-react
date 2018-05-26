@@ -1,0 +1,90 @@
+.Layout {
+    display: flex;
+    background-color: #e6ecf0;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    margin: 50px 0 50px 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 1200px;
+    align-content: space-around ;
+}
+
+/*flex items*/
+.content > div {
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.profil {
+    width: 300px;
+    order : 1;
+}
+
+.trending {
+    width: 300px;
+    order : 2;
+    
+}
+
+.children {
+    height: 100vh;
+    width: 600px;
+    order : 3;
+    border : 1px solid green;
+    box-sizing: border-box;
+}
+
+.whoToFollow {
+    width: 300px;
+    order : 4;
+}
+
+.footer {
+    width: 300px;
+    order : 5;
+}
+
+@media (max-width : 1251px) {
+
+    .content {
+        width: 900px;
+        justify-content: flex-start;
+        align-content: flex-start;
+    }
+        
+    .children {
+        order : 5;
+    }
+
+    .whoToFollow {
+        order : 3;
+    }
+
+    .footer {
+        order : 4;
+    }
+
+}
+
+@media (max-width: 935px) {
+    .Layout {
+        align-items: flex-start;
+    }
+}
+
+
+@media (max-height : 417px) {
+    .content {
+        height: 417px;
+        flex-wrap: wrap;
+    }
+    .children {
+        height: 100%;
+    }
+}
