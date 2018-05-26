@@ -8,7 +8,7 @@ const Avatar = (props) => (
             src = {props.src} 
             width = {props.size[0]} 
             height = {props.size[1]}
-            style={{'borderRadius': props.size[0]}}
+            style={{'borderRadius': props.size[0], 'border': props.border}}
         />
     </Fragment>
 )
