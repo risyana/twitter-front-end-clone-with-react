@@ -1,10 +1,17 @@
-import React from 'react'
-import css from './Button.css'
+import React from 'react';
+import PropTypes from 'prop-types';
+import css from './Button.css';
 
-const Button = (props) => (
-    <button className = {css[props.btnclass]} >
-        {props.label}
-    </button>
-)
+const Button = props => (
+  <button className={css[props.btnclass]} >
+    {props.label}
+  </button>
+);
 
-export default Button
+Button.propTypes = {
+  btnclass: PropTypes.string.isRequired,
+  label: PropTypes.string.isRequired,
+};
+
+export default Button;
+

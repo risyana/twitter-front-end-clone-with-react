@@ -1,0 +1,25 @@
+.h4 {
+    margin: 15px;
+}
+
+.listContainer {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 15px;
+    box-sizing: border-box;
+    border : 1px dashed green;
+}
+
+.listContainer > .list {
+    padding-bottom: 15px;
+    display: flex;
+    box-sizing: border-box;
+    border : 1px solid red;
+    justify-content: space-around;
+}
+
+.listContainer > .list > div {
+    border : 1px solid blue;
+}

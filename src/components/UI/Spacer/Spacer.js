@@ -1,8 +1,9 @@
-import React from 'react' 
-import css from './Spacer.css'
+import React from 'react';
+import css from './Spacer.css';
 
 const Spacer = () => (
-    <span className = {css.Spacer}></span>
-)
+  <span className={css.Spacer} />
+);
 
-export default Spacer
+export default Spacer;
+

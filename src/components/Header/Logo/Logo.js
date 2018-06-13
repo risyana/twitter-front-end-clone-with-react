@@ -1,10 +1,10 @@
-import React, { Fragment } from 'react'
-import css from './Logo.css'
+import React from 'react';
+import css from './Logo.css';
 
 const Logo = () => (
-    <div className= {css.Logo}>
-        <i className= {`fa fa-twitter`} > </i>
-    </div>
-)
+  <div className={css.Logo}>
+    <i className="fa fa-twitter" />
+  </div>
+);
 
-export default Logo
+export default Logo;
