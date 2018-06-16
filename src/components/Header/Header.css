@@ -1,48 +1,46 @@
 .Header {
-    position: fixed;
-    height: 45px;
-    width: 100%;
-    background-color: #fff;
-    color : #66757f;
-    padding: 5px 5%;
-    box-sizing: border-box;
-    border-bottom: 1.5px solid rgba(0, 0, 0, 0.2);
-    display :flex;
-    align-items: center;
-    justify-content: space-around;
-    z-index: 100;
+  position: fixed;
+  height: 45px;
+  width: 100%;
+  background-color: #fff;
+  color: #66757f;
+  padding: 5px 5%;
+  box-sizing: border-box;
+  border-bottom: 1.5px solid rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 100;
 }
 
 .HeaderContainer {
-    margin: 50px 0 50px 0;
-    width: 100%;
-    display :flex;
-    align-items: center;
-    justify-content: space-around;
-    
+  margin: 50px 0 50px 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
-
- @media (max-width: 1251px) {
-     .Header {
-         width: 900;
-     }
- }
-
- @media (max-width: 936px) {
-    .Header {
-        padding : 5px 2%;
-    }
+@media (max-width: 1251px) {
+  .Header {
+    width: 900;
+  }
 }
 
- @media (max-width: 905px) {
-    .Header {
-        padding : 5px 1px;
-    }
+@media (max-width: 936px) {
+  .Header {
+    padding: 5px 2%;
+  }
 }
 
- @media (max-width: 605px) {
-    .Header {
-        width: 605px;
-    }
+@media (max-width: 905px) {
+  .Header {
+    padding: 5px 1px;
+  }
+}
+
+@media (max-width: 605px) {
+  .Header {
+    width: 605px;
+  }
 }

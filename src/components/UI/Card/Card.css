@@ -1,13 +1,13 @@
 .container {
-    background-color: white;
+  background-color: white;
 }
 
 .content {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .footer {
-    padding : 10px;
-    border-top: 1px solid #e6ecf0;
+  padding: 10px;
+  border-top: 1px solid #e6ecf0;
 }

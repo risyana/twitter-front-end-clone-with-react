@@ -1,34 +1,32 @@
-.NavItem {
-}
+/* .NavItem {} */
 
 .Button {
-    text-decoration: none;
-    color:inherit;
-    padding-bottom: 12px;
-    font-weight: bold;
-    font-size: 18px;
-    width: inherit;
-    padding-right: 13px;
+  text-decoration: none;
+  color: inherit;
+  padding-bottom: 12px;
+  font-weight: bold;
+  font-size: 18px;
+  width: inherit;
+  padding-right: 13px;
 }
 
 .Button:hover {
-    color : #b07957;
-    border-bottom: #B07957 solid 2px;
-    transition: opacity 0.2s ease-in;
+  color: #b07957;
+  border-bottom: #b07957 solid 2px;
+  transition: opacity 0.2s ease-in;
 }
-
 
 .Label {
-    font-size: 14px;
+  font-size: 14px;
 }
 
-
 @media (max-width: 936px) {
-    .Button {
-        text-align: center;
-        padding-left: 13px;
-    }
-    .Label {
-        display: none;
-    }
+  .Button {
+    text-align: center;
+    padding-left: 13px;
+  }
+
+  .Label {
+    display: none;
+  }
 }

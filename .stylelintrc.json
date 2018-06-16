@@ -1,6 +1,9 @@
 {
   "extends": "stylelint-config-standard",
   "rules": {
-    "at-rule-empty-line-before": null
+    "at-rule-empty-line-before": null,
+    "no-missing-end-of-source-newline": null,
+    "selector-combinator-space-after": null,
+    "selector-combinator-space-before": null
   }
 }

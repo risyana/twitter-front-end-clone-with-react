@@ -1,66 +1,72 @@
-
 .coverImage {
-    margin: 0 0 0 0;
-    overflow: hidden;
-    width: 100%;
-    height: 100px;
+  margin: 0 0 0 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100px;
 }
 
-.coverImage > img {
-    max-width: 100%;
+.coverImage>img {
+  max-width: 100%;
 }
 
 .avatar {
-    width: 30%;    
-    position: relative;
-    top : -35px;
-    left : -5px;
+  width: 30%;
+  position: relative;
+  top: -35px;
+  left: -5px;
 }
 
 .username {
-    align-self: center;
-    padding-top: 5px;
-    width: 70%;
+  align-self: center;
+  padding-top: 5px;
+  width: 70%;
 }
 
-.tweet, .follower, .following {
-    box-sizing: border-box;
-    padding-bottom: 15px;
+.tweet,
+.follower,
+.following {
+  box-sizing: border-box;
+  padding-bottom: 15px;
 }
-
 
 .tweet {
-    width: 30%;
-    padding-left: 15px;
+  width: 30%;
+  padding-left: 15px;
 }
 
-.follower, .following {
-    width: 35%;
+.follower,
+.following {
+  width: 35%;
 }
 
-
-
-.username > span, .tweet > span, .following > span, .follower > span {
-    display: block;
-    margin-bottom: 2px;
+.username>span,
+.tweet>span,
+.following>span,
+.follower>span {
+  display: block;
+  margin-bottom: 2px;
 }
 
-.username span:nth-child(1){
-    font-weight: bold;
+.username span:nth-child(1) {
+  font-weight: bold;
 }
 
-.username span:nth-child(2){
-    color: gray;
+.username span:nth-child(2) {
+  color: gray;
 }
 
-.tweet span:nth-child(1), .following span:nth-child(1), .follower span:nth-child(1){
-    color: gray;
-    font-weight: bold;
-    font-size: 0.8em;
+.tweet span:nth-child(1),
+.following span:nth-child(1),
+.follower span:nth-child(1) {
+  color: gray;
+  font-weight: bold;
+  font-size: 0.8em;
 }
 
-.tweet span:nth-child(2), .following span:nth-child(2), .follower span:nth-child(2){
-    font-weight: bold;
-    color : #B07957;
-    font-size: 1.3em;
+.tweet span:nth-child(2),
+.following span:nth-child(2),
+.follower span:nth-child(2) {
+  font-weight: bold;
+  color: #b07957;
+  font-size: 1.3em;
 }

@@ -1,6 +1,7 @@
 .Avatar {
-    margin: 0 15px;
+  margin: 0 15px;
 }
+
 .Avatar:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
