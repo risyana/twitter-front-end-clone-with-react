@@ -7,12 +7,15 @@ const Card = props => (
     <div className={css.content} style={{ padding: props.padding }}>
       {props.children}
     </div>
-    {props.link ?
-      <div className={css.footer}>
-        <a href={props.link[1]} >
-          {props.link[0]}
-        </a>
-      </div> : null}
+    {
+      props.link ?
+        <div className={css.footer}>
+          <a href={props.link[1]} >
+            {props.link[0]}
+          </a>
+        </div>
+        : null
+    }
   </div>
 );
 

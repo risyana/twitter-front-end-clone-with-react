@@ -36,34 +36,41 @@ const Layout = props => (
   <div className={css.Layout}>
     <Header />
     <div className={css.content}>
-      <div className={css.profil}>
-        <Card>
-          <Profile />
-        </Card>
-      </div>
-      <div className={css.trending}>
-        <Card>
-          <Trending
-            title="Indonesia Trending"
-            trends={TRENDS}
-          />
-        </Card>
+      <div className={css.leftbar}>
+        <div className={css.profil}>
+          <Card>
+            <Profile />
+          </Card>
+        </div>
+        <div className={css.trending}>
+          <Card>
+            <Trending
+              title="Indonesia Trending"
+              trends={TRENDS}
+            />
+          </Card>
+        </div>
       </div>
       <div className={css.children}>
         <Card>
           {props.children}
         </Card>
       </div>
-      <div className={css.whoToFollow}>
-        <Card>
-          whoToFollow
-        </Card>
-      </div>
-      <div className={css.footer}>
-        <Card link={['Advertise with Twitter', 'https://ads.twitter.com/?ref=gl-tw-tw-twitter-webtimeline']}>
-          © 2018 Twitter About Help Center Terms Privacy policy Cookies Ads
-           info Brand Blog Status Apps Jobs Marketing Businesses Developers
-        </Card>
+      <div className={css.rightbar}>
+        <div className={css.whoToFollow}>
+          <Card padding="10px">
+            whoToFollow
+          </Card>
+        </div>
+        <div className={css.footer} >
+          <Card
+            padding="10px"
+            link={['Advertise with Twitter', 'https://ads.twitter.com/?ref=gl-tw-tw-twitter-webtimeline']}
+          >
+            © 2018 Twitter About Help Center Terms Privacy policy Cookies Ads
+             info Brand Blog Status Apps Jobs Marketing Businesses Developers
+          </Card>
+        </div>
       </div>
     </div>
   </div>
