@@ -32,6 +32,11 @@ const TRENDS = [{
   number: 1013,
 }];
 
+const FOOTER = `
+            © 2018 Twitter About Help Center Terms Privacy policy Cookies Ads
+            info Brand Blog Status Apps Jobs Marketing Businesses Developers`;
+const LINK = ['Advertise with Twitter', 'https://ads.twitter.com/?ref=gl-tw-tw-twitter-webtimeline'];
+
 const Layout = props => (
   <div className={css.Layout}>
     <Header />
@@ -50,6 +55,19 @@ const Layout = props => (
             />
           </Card>
         </div>
+        <div className={css.whoToFollow} id={css.onLeftbar}>
+          <Card padding="10px">
+            whoToFollow
+          </Card>
+        </div>
+        <div className={css.footer} id={css.onLeftbar}>
+          <Card
+            padding="10px"
+            link={LINK}
+          >
+            {FOOTER}
+          </Card>
+        </div>
       </div>
       <div className={css.children}>
         <Card>
@@ -57,18 +75,17 @@ const Layout = props => (
         </Card>
       </div>
       <div className={css.rightbar}>
-        <div className={css.whoToFollow}>
+        <div className={css.whoToFollow} id={css.onRightbar}>
           <Card padding="10px">
             whoToFollow
           </Card>
         </div>
-        <div className={css.footer} >
+        <div className={css.footer} id={css.onRightbar}>
           <Card
             padding="10px"
-            link={['Advertise with Twitter', 'https://ads.twitter.com/?ref=gl-tw-tw-twitter-webtimeline']}
+            link={LINK}
           >
-            © 2018 Twitter About Help Center Terms Privacy policy Cookies Ads
-             info Brand Blog Status Apps Jobs Marketing Businesses Developers
+            {FOOTER}
           </Card>
         </div>
       </div>
