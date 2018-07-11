@@ -1,0 +1,76 @@
+.Tweet {
+  display: flex;
+  padding: 5px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 0.9em;
+}
+
+.Tweet:hover {
+  background-color: rgba(152, 167, 255, 0.1);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.AvatarContainer {
+  width: 80px;
+}
+
+.HeaderContainer>i {
+  color: lightgray;
+}
+
+.Header {
+  color: rgb(156, 156, 156);
+  font-weight: lighter;
+}
+
+.Header>:nth-child(1) {
+  font-weight: bold;
+  color: black;
+}
+
+.Header>:nth-child(3) {
+  font-size: 0.8em;
+}
+
+.ContentContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.HeaderContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ButtonList {
+  color: gray;
+  display: flex;
+}
+
+.ButtonList>div {
+  width: 85px;
+  margin-top: 10px;
+  display: flex;
+  align-items: baseline;
+}
+
+.ButtonList>div>i {
+  margin-right: 8px;
+}
+
+.ButtonList>:nth-child(1):hover {
+  color: blue;
+}
+
+.ButtonList>:nth-child(2):hover {
+  color: rgb(1, 177, 1);
+}
+
+.ButtonList>:nth-child(3):hover {
+  color: red;
+}
+
+.ButtonList>:nth-child(4):hover {
+  color: brown;
+}
